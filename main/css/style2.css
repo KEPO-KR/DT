@@ -24,15 +24,9 @@ h2 {
 	font-size: 20px;
 	text-align: left;
 }
-.soda {
-	text-align: center;
-	margin-top: 50px;
-	height: 100%;
-	position: fixed;
-	background-color: white;
-}
 
 .side {
+	taxt-align: center;
 	height: 750px;
 	width: 100%;
 }
