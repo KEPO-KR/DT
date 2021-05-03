@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport"
+	content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>TEAM D-T</title>
+<link href="./css/reset.css" rel="stylesheet" type="text/css" />
+<link href="./css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="soda" id="soda">
+      <header class="box">
+        <h1>TEAM-DT</h1>
+      </header>
+      <p class="box">동아리 [DT] 사이트에 방문을 환영합니다.</p>
+      <a href="#d" id="btn" class="btn">상세 정보</a>
+    </div>
+    <div class="side a" id="main">
+        <a href="#"><img src="img/login.png" alt="" class="login" style="opacity: 10;"></a>
+    </div>
+    <div class="side b" id="b">
+      <h2>1-게시판</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td>번호</td>
+            <td>작성자</td>
+            <td>제목</td>
+          </tr>
+        </tbody>
+      </table>
+      <p></p>
+      <br>
+    </div>
+    <div class="side c" id="c">
+      <h2>2</h2>
+    </div>
+    <div class="side d" id="d">
+      <h2>3</h2>
+      <h2>역사</h2>
+      <p>3월 초 친구들과 웹사이트를 만들어 <strong style="text-decoration: line-through;">(포트폴리오에 넣으려..)</strong>가 아니라 경험을 쌓고 싶어서 ^^</p>
+      <h2>언어</h2>
+      <p>html css js등을 학습 본 페이지에는 php코드가 들어가 있음(ㅎㅎ 나는 4개다 하지렁~)</p>
+      <h2>정보</h2>
+      만든이:상황호
+      기반:103
+
+      tmi..
+      혼자 만들어서 힘들..긴 재밌구만
+    </div>
+    <div class="side e" id="e">
+      <br>
+      <br>
+      <br>
+      <footer>
+        팀DT|(C) 2021.황상호 all rights reserved.|BY-NC-ND
+        <br>
+        <br>
+        main Image by <a href="https://pixabay.com/users/rahu-4725201/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2906159">Rahul Yadav</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2906159">Pixabay</a>
+        픽사베이
+        login image by <a href="https://www.pngegg.com/ko/png-oouaw">https://www.pngegg.com/ko/png-oouaw</a>
+        <br>
+        <br>
+        <a href="http://www.charliewaite.me/">디자인 참고</a>
+        <br>
+        <br>
+        개발자:황상호
+      </footer>
+    </div>
+    <script>
+    let zz = navigator.userAgent.toLowerCase();
+    if (zz.indexOf("chrome") != -1) {
+      setTimeout(3000,alert("본 사이트는 크롬만 지원합니다.10초 후 크롬 다운로드 사이트로 이동합니다."));
+      setTimeout(13000 , location.href="https://www.google.co.kr/chrome/?brand=CHBD&gclid=EAIaIQobChMIq-Wv6M2t8AIVZJ_CCh1X9wRaEAAYASAAEgImDPD_BwE&gclsrc=aw.ds");
+    }
+      function main() {
+        let z = window.innerHeight;
+        document.getElementById('main').style.height = z+"px";
+        document.getElementById('soda').style.height = z+"px";
+      }
+      main();
+    </script>
+	</body>
+</html>
