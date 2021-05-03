@@ -89,7 +89,7 @@ html {
 		border: 2px solid black;
 	}
 	.login {
-		position: relative;
+		position: absolute;
 		top: 8px;
 		right: 8px;
     float: right;
@@ -161,6 +161,7 @@ html {
 	}
 	.a {
 		background:url(../img/main.jpg);
+    position: relative;
 	}
 	.b {
 		background-color: #005ba9;
